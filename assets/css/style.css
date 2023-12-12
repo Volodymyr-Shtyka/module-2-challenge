@@ -1,0 +1,204 @@
+:root {
+    --primary-color: #34373f;
+    --secondary-color: #98d6d6;
+    --accent-color: #f5f5f5;
+    --back-color: #91cacb;
+    --h3-color: #465874;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #ededf5;
+}
+
+/* main logo / nav */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 20px 0;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+h1.logo {
+    font-size: 44px;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px 10px 10px 40px;
+    color: var(--primary-color);
+    background-color: var(--back-color);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    position: relative;
+    font-size: 22px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #333;
+}
+
+.menu a:focus {
+    color: var(--secondary-color);
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--secondary-color);
+    transition: width 0.3s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+/* hero banner */
+
+.hero {
+    position: relative;
+    min-height: 270px;
+    margin-bottom: 40px;
+    background:
+        linear-gradient(#0084ff57, #0084ff57),
+        url(../images/02-hero-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+.hero div {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+.hero h2 {
+    font-size: 34px;
+    font-weight: 700;
+    padding: 10px;
+    color: var(--primary-color);
+    background-color: var(--back-color);
+}
+
+/* Main / Section */
+.page-wrapper {
+    
+}
+
+.section {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    position: relative;
+    margin-right: 25px;
+    padding-right: 15px;
+}
+
+.section h3 {
+    font-size: 50px;
+    text-align: right;
+    color: var(--h3-color);
+}
+
+.section h3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--h3-color);
+}
+
+.section p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+/* About me */
+
+
+/* Portfolio Container */
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: var(--accent-color);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 300px;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+/* Contact */
+
+footer {
+    padding-bottom: 25px;
+}
+
+footer h3 {}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list li {
+    margin: 0 10px;
+}
+
+.contact-list li a {}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}

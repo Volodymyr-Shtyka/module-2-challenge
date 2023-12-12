@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volodymyr Shtyka - Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Volodymyr Shtyka // Web Developer</title>
 </head>
 
 <body>
-
+    <!-- main logo / nav -->
     <header>
-        <div class="logo">
+        <h1 class="logo">
             Volodymyr Shtyka
-        </div>
+        </h1>
         <nav class="menu" aria-label="Main Navigation">
             <a href="#about">About Me</a>
             <a href="#project">Work</a>
@@ -21,24 +24,37 @@
         </nav>
     </header>
 
-    <div class="header-img">
-        <h1>Coding Boot Brilliance</h1>
-    </div>
+    <!-- hero banner -->
+    <section class="hero">
+        <div>
+            <h2>Coding Boot Brilliance</h2>
+        </div>
+    </section>
 
-    <main>
-        <section id="about" class="about">
-            <h2>About Me</h2>
+    <main class="page-wrapper">
+        <!-- about me -->
+        <section id="about" class="about-section section">
+            <div class="section-title">
+                <h3>About Me</h3>
+            </div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, repellendus, non illo dolores culpa
-                    aliquid hic mollitia quam error perferendis debitis ipsam officiis facilis! Accusantium vitae
-                    aspernatur similique fugit quae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, repellendus, non illo dolores culpa
-                    aliquid hic mollitia quam error perferendis debitis ipsam officiis facilis! Accusantium vitae
-                    aspernatur similique fugit quae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae adipisci sed voluptate
+                    voluptatibus, nihil, quia eaque officia accusamus officiis consectetur nesciunt quidem distinctio
+                    vero molestias non ratione deserunt, excepturi quod perferendis nulla. Delectus ratione maxime quos,
+                    ex quas unde obcaecati? Ullam quod dolorem quis enim. Non magni rem beatae inventore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam, sunt nostrum provident
+                    dignissimos soluta. Deleniti voluptatibus enim soluta odio ad consectetur incidunt quod ut esse
+                    numquam dolores vel, qui amet dignissimos exercitationem quibusdam illo excepturi ab. Eligendi
+                    inventore dolorum officiis nam animi est porro debitis. Officia quis dolorem nam ullam eius enim
+                    placeat autem iusto suscipit eligendi voluptates, quidem temporibus molestias, laudantium magni,
+                    iure dolore. Aliquid et doloremque eveniet!</p>
             </div>
         </section>
-        <section id="project" class="project-section">
-            <h2>Work</h2>
+        <!-- portfolio container -->
+        <section id="project" class="project-section section">
+            <div class="section-title">
+                <h3>Work</h3>
+            </div>
             <div class="project-list">
                 <div class="project project-first">
                     <div class="project-title">
@@ -84,8 +100,11 @@
         </section>
     </main>
 
-    <footer id="contact">
-        <h2>Contact</h2>
+    <!-- contact -->
+    <footer id="contact" class="section">
+        <h3 class="section-title">
+            Contact Me
+        </h3>
         <ul class="contact-list">
             <li><a href="tel:+9993334455">999.333.44.55</a></li>
             <li><a href="mailto:gmail@gmail.com">gmail@gmail.com</a></li>
