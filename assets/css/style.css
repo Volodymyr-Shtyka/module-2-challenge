@@ -200,11 +200,11 @@ h1.logo {
 }
 
 .project:nth-child(2) .project-wrap {
-    background-image: url(../images/02-portfolio-2.jpg);
+    background-image: url(../images/02-portfolio-3.jpg);
 }
 
 .project:nth-child(3) .project-wrap {
-    background-image: url(../images/02-portfolio-3.jpg);
+    background-image: url(../images/02-portfolio-2.jpg);
 }
 
 .project:nth-child(4) .project-wrap {
