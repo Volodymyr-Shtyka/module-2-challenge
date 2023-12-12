@@ -17,8 +17,7 @@ body {
     background-color: #ededf5;
 }
 
-/* main logo / nav */
-
+/* Main Logo / Nav */
 header {
     display: flex;
     justify-content: space-between;
@@ -74,8 +73,7 @@ h1.logo {
     width: 100%;
 }
 
-/* hero banner */
-
+/* Hero Banner */
 .hero {
     position: relative;
     min-height: 250px;
@@ -135,6 +133,13 @@ h1.logo {
     background-color: var(--h3-color);
 }
 
+.section-content .avatar {
+    width: 152px;
+    height: 152px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
 .section-content p {
     margin-bottom: 15px;
     line-height: 1.5;
@@ -146,7 +151,6 @@ h1.logo {
 
 
 /* Portfolio Container */
-
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -228,7 +232,6 @@ h1.logo {
 }
 
 /* Contact */
-
 footer {
     padding-bottom: 25px;
 }
@@ -254,7 +257,7 @@ footer {
     background-color: var(--primary-color);
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     header,
     .contact-list {
@@ -282,7 +285,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .menu {
         flex-direction: column;
     }
@@ -321,7 +324,7 @@ footer {
     }
 }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .project-list .project:nth-child(1) .project-wrap {
         height: 200px;
     }
@@ -331,7 +334,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     h1.logo {
         font-size: 34px;
     }
