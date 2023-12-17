@@ -196,7 +196,8 @@ h1.logo {
 }
 
 .project:nth-child(1) .project-wrap {
-    background-image: url(../images/02-portfolio-1.jpg);
+    background-image: url(../images/module-1-challenge.png);
+    background-position: top;
 }
 
 .project:nth-child(2) .project-wrap {
