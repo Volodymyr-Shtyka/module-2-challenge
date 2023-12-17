@@ -4,7 +4,10 @@
 This repository showcases the work of Volodymyr Shtyka, a web developer. It includes an introduction, portfolio, and contact information.
 
 ## Preview
-![Website Preview](./assets/images/screenshot.png)
+![Website Preview](./assets/images/screencapture-volodymyr-shtyka-github-io-web-developer-profile.png)
+
+## Link to the deployed application
+[https://volodymyr-shtyka.github.io/web-developer-profile](https://volodymyr-shtyka.github.io/web-developer-profile)
 
 ## Installation Instructions
 To view this project locally, follow these steps:
